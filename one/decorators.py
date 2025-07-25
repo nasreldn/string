@@ -1,15 +1,15 @@
 def a(bnana):
-    def b():
+    def b(n1,n2):
         print("#" * 20)
-        bnana()
+        bnana(n1,n2)
         print("#" * 20)
     return b   
 @a        
-def c():
-    print("nasor")
+def c(n1,n2):
+    print(n1+n2)
 # d =a(c) 
 # d()
-c()
+c(2,9)
     
  
          
