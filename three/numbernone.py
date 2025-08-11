@@ -8,4 +8,9 @@ def a(b):
     return e        
 k=[1,2,3,5,6,8,9] 
 print(a(k))       
-        
+a=[1,2,3,4,14,6,7,9]  
+a.sort() 
+print(a[-1])
+
+                  
+    
